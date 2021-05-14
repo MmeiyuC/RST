@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Math Quiz</h1>
+      <div id="firstpage">
+        <h3>1. What is 6 + 6 &#215; 6 - 6 ?</h3>
+        <input type="radio" name="q1">6<br>
+        <input type="radio" name="q1">66<br>
+        <input type="radio" name="q1" id="correct1">36<br>
+        <input type="radio" name="q1">0<br>
+        <h3>2. What is 21 &#247; 3(5 - 7) ?</h3>
+        <input type="radio" name="q2" id="correct2">-14<br>
+        <input type="radio" name="q2">14<br>
+        <input type="radio" name="q2">28<br>
+        <input type="radio" name="q2">-28<br>
+        <h3>3. What is 4<sup>3</sup> ?</h3>
+        <input type="radio" name="q3" id="correct3">64<br>
+        <input type="radio" name="q3">7<br>
+        <input type="radio" name="q3">12<br>
+        <input type="radio" name="q3">3/4<br>
+        <h3>4. What is 15 &#215; 2(5 - 8)<sup>2</sup> ?</h3>
+        <input type="radio" name="q4">86<br>
+        <input type="radio" name="q4" id="correct4">270<br>
+        <input type="radio" name="q4">47<br>
+        <input type="radio" name="q4">-270<br>
+        <h3>5. What is 2(14 + 6<sup>2</sup>)<sup>2</sup> ?</h3>
+        <input type="radio" name="q5">464<br>
+        <input type="radio" name="q5">100<br>
+        <input type="radio" name="q5">2620<br>
+        <input type="radio" name="q5" id="correct5">5000<br>
+      </div>
+      <div id="secondpage" class="hide">
+        <h3>6. What is the circumference of this rectangle?</h3>
+        <input type="radio" name="q6">19<br>
+        <input type="radio" name="q6">9.5<br>
+        <input type="radio" name="q6" id="correct6">38<br>
+        <input type="radio" name="q6">76<br>
+        <img src="images/rectangle.png" alt="circumference of a rectangle">
+        <h3>7. What is the volume of this rectangular prism?</h3>
+        <input type="radio" name="q7">38<br>
+        <input type="radio" name="q7" id="correct7">144<br>
+        <input type="radio" name="q7">76<br>
+        <input type="radio" name="q7">19<br>
+        <img src="images/volume.png" alt="volume of a rectangle prism">
+        <h3>8. If this volume of this cube is 125 cm<sup>2</sup>, what is the length of the side?</h3>
+        <input type="radio" name="q8" id="correct8">5<br>
+        <input type="radio" name="q8">15<br>
+        <input type="radio" name="q8">25<br>
+        <input type="radio" name="q8">1<br>
+        <img src="images/cube.png" alt="cube">
+      </div>
+      <button id="next">Next</button>
+      <button id="previous" class="hide">Previous</button>
+      <button id="submit" class="hide">Submit</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
