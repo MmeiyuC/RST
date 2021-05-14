@@ -1,5 +1,4 @@
 let score = 0
-let counter = 0
 
 // Connect "Next" button to function
 document.getElementById('next').addEventListener('click', next)
@@ -29,32 +28,32 @@ function previous () {
 }
 
 function submit () {
-  //Check user's answers
+  // Check user's answers
   if (document.getElementById('correct1').checked) {
-    score++;
+    score++
   }
   if (document.getElementById('correct2').checked) {
-    score++;
+    score++
   }
   if (document.getElementById('correct3').checked) {
-    score++;
+    score++
   }
   if (document.getElementById('correct4').checked) {
-    score++;
+    score++
   }
   if (document.getElementById('correct5').checked) {
-    score++;
+    score++
   }
   if (document.getElementById('correct6').checked) {
-    score++;
+    score++
   }
   if (document.getElementById('correct7').checked) {
-    score++;
+    score++
   }
   if (document.getElementById('correct8').checked) {
-    score++;
+    score++
   }
 
-  //Show score
-  alert('Your score is '+score)
+  // Show score
+  alert('Your score is ' + score)
 }
