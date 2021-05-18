@@ -28,7 +28,12 @@ function previous () {
 }
 
 function submit () {
-  // Check user's answers
+  // Hide previouse button and submit button, show first page
+  document.getElementById('previous').style.display = 'none'
+  document.getElementById('submit').style.display = 'none'
+  document.getElementById('firstpage').style.display = 'block'
+
+  // Check users' answer
   if (document.getElementById('correct1').checked) {
     score++
   }
@@ -55,5 +60,5 @@ function submit () {
   }
 
   // Show score
-  alert('Your score is ' + score)
+  document.getElementById('score').innerHTML = 'Your score is ' + score
 }
