@@ -60,5 +60,5 @@ function submit () {
   }
 
   // Show score
-  document.getElementById('score').innerHTML = 'Your score is ' + score
+  document.getElementById('score').innerHTML = 'Your score is ' + score + ' Answers: 3, 1, 1, 2, 4, 3, 2, 1'
 }
