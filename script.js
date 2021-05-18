@@ -28,7 +28,7 @@ function previous () {
 }
 
 function submit () {
-  // Hide previouse button and submit button, show first page
+  // Hide previous button and submit button, show first page
   document.getElementById('previous').style.display = 'none'
   document.getElementById('submit').style.display = 'none'
   document.getElementById('firstpage').style.display = 'block'
